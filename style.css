@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-image: url("cupp.jpg") ;
     background-size: 124%;
 }
@@ -11,11 +13,10 @@ div h3{
     color: #fff;
 }
 form{
-    width: 350px;
-    height: 960px;
+    margin: 0  auto;
+    padding: 30px;
+    width: 450px;
     border: 2px solid #fff ;
-    padding: 10px 70px;
-    margin: 10px 410px;
     color: #fff;
     font-weight: 200;
     font-size: 17px;
