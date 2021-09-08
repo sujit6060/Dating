@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dating Site</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1> &#10084; Welcome To Dating Site  &#10084; </h1>
+        </div>
+        <hr>
+        <div>
+            <br>
+            <h3>Here's Fill Up Your Personal Details : </h3>
+            <form action="thank.html" method="POST" enctype="multipart/form-data">
+                <br>
+                <label for="Name">Name :</label> &nbsp;&nbsp;&nbsp;
+                <input type="text" name="name" id="name" placeholder="Enter your fullname" required>
+                <br>
+                <br>
+                <label for="Name">Email :</label> &nbsp;&nbsp;&nbsp;
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <br>
+                <br>
+                <label for="Name">Phone Number :</label>
+                <input type="tel" pattern="[7-9]{1}[0-9]{9}" name="phonenumber" id="number"
+                    placeholder="[7-9]{1}[0-9]{9}" required>
+                <br>
+                <br>
+                <label for="Name">Gender :</label>
+                <input type="radio" name="gender" value="male" id="m1">
+                <label for="m1">Male</label>
+                <input type="radio" name="gender" value="female" id="f1">
+                <label for="f1">Female</label>
+                <br>
+                <br>
+                <label for="date">Date of Proposed Outing :</label>
+                <input type="date" id="date" name="date" value="date">
+                <br>
+                <br>
+                <h4>Check All That Apply To You: </h4>
+                <input type="checkbox" id="q1">
+                <label for="q1"> I have Tattoos and/or Piercings </label>
+                <br>
+                <br>
+                <input type="checkbox" id="q2">
+                <label for="q2"> I Am More Than 2 Years Older than Your Daughter</label>
+                <br>
+                <br>
+                <input type="checkbox" id="q3">
+                <label for="q3"> I Own a Panel Van or Ferrari</label>
+                <br>
+                <br>
+                <input type="checkbox" id="q4">
+                <label for="q4"> I Work Full-Time</label>
+                <br>
+                <br>
+                <input type="checkbox" id="q5">
+                <label for="q5"> My Parents are Rich</label>
+                <br>
+                <br>
+                <input type="checkbox" id="q6">
+                <label for="q6"> Is the Date at a Private/Public Location</label>
+                <br>
+                <br>
+                <input type="checkbox" id="q7">
+                <label for="q7"> Education Level Completed</label>
+                <br>
+                <br>
+                <h4>Why Do You Want To Date My Daughter? </h4>
+                <textarea name="description" id="d1" cols="35" rows="5" maxlength="1000"
+                    placeholder="Mention in 50 words" required></textarea>
+                <br>
+                <br>
+                <label for="refrence">Please Provide 1 Contact Point For Reference</label>
+                <input type="text" name="refrence" id="refrence" placeholder="Mention one contact" required>
+                <br>
+                <br>
+                <label for="bankstatement">Upload The Bank Statement Here :</label>
+                <br>
+                <br>
+                <input type="file" name="bank" id="file1" value="file" required>
+                <br>
+                <br>
+                <br>
+                <button type="submit" name="submit" id="btn1" value="submit">&nbsp; Submit &nbsp;</button>
+            </form>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <section>
+        <footer>&copy; Copyright 2021 - Designed By Sujit Nangare </footer>
+    </section>
+</body>
+
+</html>
